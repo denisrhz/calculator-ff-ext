@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="output">
+                <textarea 
+                cols="5"
+                rows="1"
+                placeholder="0"
+                readonly
+                maxlength="9"
+                ></textarea>
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <div class="col"><button data-action="clear" class="button secondary">AC</button></div>
+                    <div class="col"><button data-action="negative" class="button secondary">+/-</button></div>
+                    <div class="col"><button data-action="percent" class="button secondary">%</button></div>
+                    <div class="col"><button data-action="divide" class="button operation">/</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button value="7" class="button">7</button></div>
+                    <div class="col"><button value="8" class="button">8</button></div>
+                    <div class="col"><button value="9" class="button">9</button></div>
+                    <div class="col"><button data-action="multiply" class="button operation">*</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button value="4" class="button">4</button></div>
+                    <div class="col"><button value="5" class="button">5</button></div>
+                    <div class="col"><button value="6" class="button">6</button></div>
+                    <div class="col"><button data-action="subtract" class="button operation">-</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button value="1" class="button">1</button></div>
+                    <div class="col"><button value="2" class="button">2</button></div>
+                    <div class="col"><button value="3" class="button">3</button></div>
+                    <div class="col"><button data-action="add" class="button operation">+</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button value="0" class="button big">0</button></div>
+                    <div class="col"><button data-action="dot" class="button">.</button></div>
+                    <div class="col"><button data-action="result" class="button operation">=</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
