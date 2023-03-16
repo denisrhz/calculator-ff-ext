@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "IPhone Calculator",
+  "version": "1.0",
+  "author": "denisrhz",
+
+  "description": "Simple Calculator for Firefox",
+  "icons": {
+    "192": "icons/calc-192.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/calc-192.png",
+    "default_title": "Calculator",
+    "default_popup": "popup/calc_popup.html"
+  }
+}
